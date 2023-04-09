@@ -1,0 +1,17 @@
+py -m venv env
+
+env\Scripts\activate
+
+pip install flask
+
+set FLASK_APP = application.py
+
+set FLASK_DEBUG=1
+
+flask run 
+
+pip3 install flask-session
+
+pip install flask_sqlalchemy
+
+pip install psycopg2-binary --
